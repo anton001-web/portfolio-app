@@ -1,0 +1,2 @@
+export const TOGGLE_BURGER = 'TOGGLE_BURGER'
+export const THEME_TOGGLE = 'THEME_TOGGLE'

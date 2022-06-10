@@ -1,0 +1,60 @@
+@media screen and (max-width: 766px) {
+  .header {
+    grid-template-rows: 1fr;
+  }
+
+  .headerUp {
+    border-bottom: none;
+    height: 0;
+  }
+
+  .theme__toggle {
+    display: block;
+    position: absolute;
+    right: 50px;
+    bottom: 90px;
+  }
+
+  .headerList {
+    flex-direction: column;
+    background-color: var(--colors-bg);
+    justify-content: flex-start;
+    align-items: start;
+    height: 100%;
+    z-index: 9999;
+    padding: 20px 60px;
+    position: fixed;
+    left: -121%;
+    width: 75%;
+    top: 0;
+  }
+
+  .headerList__item {
+    margin-bottom: 30px;
+    width: 100%;
+
+    button {
+      display: inline;
+    }
+  }
+
+  .listItem__link {
+    font-size: 34px;
+    line-height: 42px;
+
+  }
+
+  .hidden_desktop {
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: 90px;
+
+    span {
+      font-size: 40px;
+    }
+    .language_button {
+      font-size: 34px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@media screen and (max-width: 968px) {
+  .skills__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .skills__list {
+    grid-template-columns: 1fr;
+
+    div[data-skill='webpack'] {
+      position: relative;
+      left: 0%;
+    }
+  }
+}

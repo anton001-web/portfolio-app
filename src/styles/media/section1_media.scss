@@ -1,0 +1,35 @@
+@media screen and (max-width: 766px) {
+  .section1 {
+    margin-top: 0;
+  }
+
+  .headerDown {
+    padding-top: 0;
+  }
+
+  .burger__toggle {
+    float: right;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .headerDown__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .headerDown_subTitle {
+    grid-row: 3;
+  }
+
+
+  .headerDown_subTitle {
+    text-align: start;
+    grid-column: 1 / 3;
+  }
+
+  .headerDown_subTitle {
+    padding-top: 0;
+  }
+}

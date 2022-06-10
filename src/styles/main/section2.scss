@@ -1,0 +1,43 @@
+.section_about {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionInfo__block {
+  padding: 30px 20px;
+  width: 50%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0px 0px 50px #95a5a6;
+}
+
+.sectionInfo__title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--colors-text);
+  padding-bottom: 30px;
+
+}
+
+.sectionInfo__subTitle{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: var(--colors-text);
+
+  span[data-name='title'] {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@import '../media/section2_media';
